@@ -9,6 +9,7 @@ public class ConfigInterceptor implements WebMvcConfigurer{
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new BasicAuthen());
         registry.addInterceptor(new LoggerInterceptor());
     }
 

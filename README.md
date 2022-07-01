@@ -1,6 +1,6 @@
 * [x] Build Rest API
 * [x] Viết unit test
 * [x] Work with Postgres, HikariCP
-* [ ] Work with Redis
+* [x] Work with Redis
+* [x] Work with Interceptor
 * [ ] Work with Kafka
-* [ ] Deploy on docker
